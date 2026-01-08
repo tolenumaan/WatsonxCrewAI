@@ -3,7 +3,7 @@ from crewai_tools import SerperDevTool
 from langchain_ibm import WatsonxLLM
 import os
 
-os.environ["WATSONX_APIKEY"] = "M-pCrzdh-HzSHdAy37RuJix5blSC6mlUNGrdIjfWVDem"
+os.environ["WATSONX_APIKEY"] = "3LgaVPnwyeQV05NoK_6lDALgLlUqlhrak3pr-s9AaRpc"
 os.environ["SERPER_API_KEY"] = "84d36116ec815dd298dd30ce8769d602250145c6"
 
 # Parameters
