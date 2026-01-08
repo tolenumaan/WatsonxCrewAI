@@ -14,7 +14,7 @@ llm = WatsonxLLM(
     model_id="meta-llama/llama-3-70b-instruct",
     url="https://us-south.ml.cloud.ibm.com",
     params=parameters,
-    project_id="b45b96721f27439e9333079681e9cf6f",
+    project_id="6ee44028-923c-4b98-a2bb-5e40b36f9cfc",
 )
 
 # Create the function calling llm
@@ -22,7 +22,7 @@ function_calling_llm = WatsonxLLM(
     model_id="ibm-mistralai/merlinite-7b",
     url="https://us-south.ml.cloud.ibm.com",
     params=parameters,
-    project_id="b45b96721f27439e9333079681e9cf6f",
+    project_id="6ee44028-923c-4b98-a2bb-5e40b36f9cfc",
 )
 
 # Tools
