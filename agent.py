@@ -3,8 +3,8 @@ from crewai_tools import SerperDevTool
 from langchain_ibm import WatsonxLLM
 import os
 
-os.environ["WATSONX_APIKEY"] = "<YOUR WATSONX API KEY HERE>"
-os.environ["SERPER_API_KEY"] = "<YOUR SERPER API KEY HERE>"
+os.environ["WATSONX_APIKEY"] = "sFjkt4owdfuCiJNtLlrTKIgkrSHHVCtLC3p5lJCAM1B-"
+os.environ["SERPER_API_KEY"] = "84d36116ec815dd298dd30ce8769d602250145c6"
 
 # Parameters
 parameters = {"decoding_method": "greedy", "max_new_tokens": 500}
@@ -22,7 +22,7 @@ function_calling_llm = WatsonxLLM(
     model_id="ibm-mistralai/merlinite-7b",
     url="https://us-south.ml.cloud.ibm.com",
     params=parameters,
-    project_id="<YOUR WATSONX.AI PROJECT ID HERE>",
+    project_id="160bb1c8-24f9-4380-b051-77fa2d300aaf",
 )
 
 # Tools
