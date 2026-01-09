@@ -7,7 +7,7 @@ os.environ["WATSONX_APIKEY"] = "3LgaVPnwyeQV05NoK_6lDALgLlUqlhrak3pr-s9AaRpc"
 os.environ["SERPER_API_KEY"] = "84d36116ec815dd298dd30ce8769d602250145c6"
 
 # Parameters
-parameters = {"decoding_method": "greedy", "max_new_tokens": 500}
+parameters = {"decoding_method": "greedy", "max_new_tokens": 200}
 
 # Create the first LLM
 llm = WatsonxLLM(
