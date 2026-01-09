@@ -11,7 +11,7 @@ parameters = {"decoding_method": "greedy", "max_new_tokens": 500}
 
 # Create the first LLM
 llm = WatsonxLLM(
-    model_id="meta-llama/llama-3-70b-instruct",
+    model_id="meta-llama/llama-3-3-70b-instruct",
     url="https://us-south.ml.cloud.ibm.com",
     params=parameters,
     project_id="6ee44028-923c-4b98-a2bb-5e40b36f9cfc",
@@ -19,7 +19,7 @@ llm = WatsonxLLM(
 
 # Create the function calling llm
 function_calling_llm = WatsonxLLM(
-    model_id="ibm-mistralai/merlinite-7b",
+    model_id="mistral-medium-2505",
     url="https://us-south.ml.cloud.ibm.com",
     params=parameters,
     project_id="6ee44028-923c-4b98-a2bb-5e40b36f9cfc",
