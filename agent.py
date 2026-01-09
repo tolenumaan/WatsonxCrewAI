@@ -19,7 +19,7 @@ llm = WatsonxLLM(
 
 # Create the function calling llm
 function_calling_llm = WatsonxLLM(
-    model_id="mistral-medium-2505",
+    model_id="ibm/granite-guardian-3-8b",
     url="https://us-south.ml.cloud.ibm.com",
     params=parameters,
     project_id="6ee44028-923c-4b98-a2bb-5e40b36f9cfc",
